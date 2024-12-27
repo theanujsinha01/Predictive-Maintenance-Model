@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import os
 
 # page tittle and page icon
 st.set_page_config(
@@ -10,8 +11,13 @@ st.set_page_config(
 )
 
 # Load the saved model and preprocessor
-model = joblib.load('predictive_maintenance_model.pkl')
-preprocessor = joblib.load('preprocessor.pkl')
+
+if not os.path.exists('predictive_maintenance_model.pkl') or not os.path.exists('preprocessor.pkl'):
+    st.error("Model or preprocessor file is missing. Please ensure all necessary files are uploaded.")
+else:
+    model = joblib.load('predictive_maintenance_model.pkl')
+    preprocessor = joblib.load('preprocessor.pkl')
+
 
 # Define the app interface
 st.title("Predictive Maintenance Model")
