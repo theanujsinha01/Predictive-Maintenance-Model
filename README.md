@@ -7,7 +7,9 @@ This application leverages machine learning to predict the **Mean Time to Failur
 - **Accurate Predictions**: Predicts MTTF using a pre-trained machine learning model.
 - **Interactive Interface**: Simple and intuitive form-based inputs for users.
 - **Real-Time Results**: Instant predictions displayed upon submitting inputs.
-  (https://github.com/user-attachments/assets/e8e506d7-1845-4ee3-bb01-e866f6db6434)
+- ![](https://github.com/user-attachments/assets/e8e506d7-1845-4ee3-bb01-e866f6db6434)
+
+  
 
 
 ## System Requirements
