@@ -5,6 +5,9 @@ This application leverages machine learning to predict the **Mean Time to Failur
 
 https://predictive-maintenance-model-drktyktu8c3ypgimg6smpm.streamlit.app/
 
+
+![](https://github.com/user-attachments/assets/5ba83d5a-5711-45d6-8589-2092aba17769)
+
 ## Key Features
 - **Accurate Predictions**: Predicts MTTF using a pre-trained machine learning model.
 - **Interactive Interface**: Simple and intuitive form-based inputs for users.
