@@ -3,7 +3,7 @@
 
 This application leverages machine learning to predict the **Mean Time to Failure (MTTF)** for industrial equipment. Built with **Streamlit**, it provides a user-friendly interface for real-time predictions based on input parameters such as product type, humidity, temperature, age, and quantity.
 
-https://predictive-maintenance-model-drktyktu8c3ypgimg6smpm.streamlit.app/
+LIVE : https://predictive-maintenance-model-drktyktu8c3ypgimg6smpm.streamlit.app/
 
 
 ![](https://github.com/user-attachments/assets/5ba83d5a-5711-45d6-8589-2092aba17769)
