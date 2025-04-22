@@ -47,7 +47,6 @@ if st.button("Predict"):
         'Humidity': [humidity],
         'Temperature': [temperature],
         'Age': [age],
-        'Quantity': [quantity]
     })
     
     try:
